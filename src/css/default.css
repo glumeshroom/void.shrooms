@@ -75,6 +75,11 @@ header, main, footer {
     outline: 5px var(--f_med) double;
     outline-offset: 5px;
 }
+@media only screen and (min-width: 1500px) {
+  #page {
+	  width: 900px;
+  }
+}
 
 a {
     color: var(--f_low);
