@@ -14,7 +14,7 @@ layout: html
     <div class="site">
         {{nsfw}}<a class="alt_font" target="_blank" href="{{member.url | xml_escape}}">{{member.name | xml_escape}}</a>
     </div>
-    {% assign button = "None.jpg" %}
+    {% assign button = "None.png" %}
     {% unless member.button == Null %}
         {% assign button = member.button %}
     {% endunless %}
