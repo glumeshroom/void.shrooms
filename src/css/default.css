@@ -2,6 +2,12 @@
 @media only screen and (max-width: 800px) {
     #page { width: calc(90% - 2.5em) !important; }
 }
+@media only screen and (min-width: 1500px) {
+    #page {
+        width: 900px;
+    }
+}
+
 
 body {
     font-family: var(--font);
@@ -74,11 +80,6 @@ header, main, footer {
 
     outline: 5px var(--f_med) double;
     outline-offset: 5px;
-}
-@media only screen and (min-width: 1500px) {
-  #page {
-	  width: 900px;
-  }
 }
 
 a {
