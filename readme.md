@@ -9,6 +9,4 @@ This site uses [Hundredrabbits' Themes](https://github.com/hundredrabbits/Themes
 
 ## Running It Locally
 
-bundle exec jekyll serve
-
-http://localhost:4000
+> bundle exec jekyll serve
